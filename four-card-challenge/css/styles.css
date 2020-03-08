@@ -1,0 +1,173 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    background-color:hsl(0, 0%, 98%);
+    font-size: 1rem;
+}
+
+
+
+.intro{
+    padding: 50px;
+}
+
+.first-header{
+    color: hsl(229, 6%, 66%);
+    font-weight: normal;
+    font-size:2rem;
+}
+
+.second-header{
+    color: hsl(234, 12%, 34%);
+    font-weight: 700;
+    font-size: 2.1rem;
+}
+
+.intro p{
+    width: 31%;
+    margin: auto;
+    margin-top: 10px;
+    font-size: 0.82625rem;
+    color: hsl(229, 6%, 66%);
+}
+
+
+#middle-section{
+    padding: 100px;
+    position: relative;
+}
+
+
+.boxes{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+.box{
+    text-align: left;
+    padding: 20px 35px;
+    box-shadow: 0px 2px 10px 2px #dbd5d5;
+    overflow: hidden;
+    position: relative;
+    border-radius: 1%;
+}
+
+
+.box h2{
+    color:hsl(234, 12%, 34%);
+    font-weight: 700;
+}
+
+.supervisor{
+    border-top:3px solid hsl(180, 62%, 55%);
+    position: absolute;
+    left:50px;
+    top:200px;
+    height: 40vh;
+    width: 28%;
+}
+
+.supervisor p{
+    width: 90%;
+    margin-top: 10px;
+    line-height: 1.5rem;
+    font-size: 0.82625rem;
+    color: hsl(229, 6%, 66%);
+}
+
+.supervisor img{
+    position: absolute;
+    right: 25px;
+    bottom: 30px;
+    
+}
+
+
+.team-builder{
+    border-top: 3px solid hsl(0, 78%, 62%);
+    position: absolute;
+    top: 2px;
+    height: 45vh;
+    width: 30%;
+}
+
+.team-builder img{
+    position: absolute;
+    right: 25px;
+    bottom: 30px;
+}
+
+.team-builder p{
+    width: 85%;
+    margin-top: 10px;
+    line-height: 1.5rem;
+    font-size: 0.82625rem;
+    color: hsl(229, 6%, 66%);
+}
+
+
+.karma{
+    border-top: 3px solid hsl(34, 97%, 64%);
+    position: absolute;
+    top: 350px;
+    height: 45vh;
+    width: 30%;
+}
+
+.karma img{
+    position: absolute;
+    right: 25px;
+    bottom: 30px;
+}
+
+.karma p{
+    width: 85%;
+    margin-top: 10px;
+    line-height: 1.5rem;
+    font-size: 0.82625rem;
+    color: hsl(229, 6%, 66%);
+}
+
+
+.calculator{
+    border-top: 3px solid hsl(212, 86%, 64%);
+    position: absolute;
+    right: 50px;
+    top: 200px;
+    height: 40vh;
+    width: 28%;
+}
+
+.calculator img{
+    position: absolute;
+    right: 25px;
+    bottom: 30px;
+}
+
+.calculator p{
+    width: 85%;
+    margin-top: 10px;
+    line-height: 1.5rem;
+    font-size: 0.82625rem;
+    color: hsl(229, 6%, 66%);
+}
+
+
+.attribution{
+    margin-top: 550px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2rem;
+}
+
+.attribution a{
+    text-decoration: none;
+}
